@@ -17,10 +17,10 @@ class CreateSpieleTable extends Migration
             $table->id();
             $table->integer('heim_id');
             $table->integer('gast_id');
-            $table->integer('tore_heim');
-            $table->integer('tore_gast');
-            $table->string('zeit');
-            $table->string('gruppe');
+            $table->integer('tore_heim')->nullable();
+            $table->integer('tore_gast')->nullable();
+            $table->datetime('zeit');
+            $table->char('gruppe',1);
             $table->timestamps();
         });
     }

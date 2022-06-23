@@ -51,7 +51,39 @@ class DatabaseSeeder extends Seeder
         DB::table('teams')->insert(['name' => 'Uruguay', 'gruppe' => 'H', 'flagge' => 'ury.png' ]);
         DB::table('teams')->insert(['name' => 'Südkorea', 'gruppe' => 'H', 'flagge' => 'kor.png' ]);
         
-        DB::table('spiele')->insert(['heim_id' => ' ', 'gast_id' => ' ', 'zeit' => ' ', 'gruppe' ]);
+        DB::table('spiele')->insert(['heim_id' => 3, 'gast_id' => 4, 'zeit' => '2022-11-21 11:00:00', 'gruppe' => 'A' ]);
+        DB::table('spiele')->insert(['heim_id' => 5, 'gast_id' => 6, 'zeit' => '2022-11-21 14:00:00', 'gruppe' => 'B' ]);
+        DB::table('spiele')->insert(['heim_id' => 1, 'gast_id' => 2, 'zeit' => '2022-11-21 17:00:00', 'gruppe' => 'A' ]);
+        DB::table('spiele')->insert(['heim_id' => 8, 'gast_id' => 7, 'zeit' => '2022-11-21 20:00:00', 'gruppe' => 'B' ]);
+        DB::table('spiele')->insert(['heim_id' => 9, 'gast_id' => 10, 'zeit' => '2022-11-22 11:00:00', 'gruppe' => 'C' ]);
+        DB::table('spiele')->insert(['heim_id' => 15, 'gast_id' => 16, 'zeit' => '2022-11-22 14:00:00', 'gruppe' => 'D' ]);
+        DB::table('spiele')->insert(['heim_id' => 11, 'gast_id' => 12, 'zeit' => '2022-11-22 17:00:00', 'gruppe' => 'C' ]);
+        DB::table('spiele')->insert(['heim_id' => 13, 'gast_id' => 14, 'zeit' => '2022-11-22 20:00:00', 'gruppe' => 'D' ]);
+        DB::table('spiele')->insert(['heim_id' => 23, 'gast_id' => 24, 'zeit' => '2022-11-23 11:00:00', 'gruppe' => 'F' ]);
+        DB::table('spiele')->insert(['heim_id' => 19, 'gast_id' => 20, 'zeit' => '2022-11-23 14:00:00', 'gruppe' => 'E' ]);
+        DB::table('spiele')->insert(['heim_id' => 17, 'gast_id' => 18, 'zeit' => '2022-11-23 17:00:00', 'gruppe' => 'E' ]);
+        DB::table('spiele')->insert(['heim_id' => 21, 'gast_id' => 22, 'zeit' => '2022-11-23 20:00:00', 'gruppe' => 'F' ]);
+        DB::table('spiele')->insert(['heim_id' => 27, 'gast_id' => 28, 'zeit' => '2022-11-24 11:00:00', 'gruppe' => 'G' ]);
+        DB::table('spiele')->insert(['heim_id' => 31, 'gast_id' => 32, 'zeit' => '2022-11-24 14:00:00', 'gruppe' => 'H' ]);
+        DB::table('spiele')->insert(['heim_id' => 29, 'gast_id' => 30, 'zeit' => '2022-11-24 17:00:00', 'gruppe' => 'H' ]);
+        DB::table('spiele')->insert(['heim_id' => 25, 'gast_id' => 26, 'zeit' => '2022-11-24 20:00:00', 'gruppe' => 'G' ]);
+
+        DB::table('spiele')->insert(['heim_id' => 8, 'gast_id' => 6, 'zeit' => '2022-11-25 11:00:00', 'gruppe' => 'B' ]);
+        DB::table('spiele')->insert(['heim_id' => 1, 'gast_id' => 3, 'zeit' => '2022-11-25 14:00:00', 'gruppe' => 'A' ]);
+        DB::table('spiele')->insert(['heim_id' => 4, 'gast_id' => 2, 'zeit' => '2022-11-25 17:00:00', 'gruppe' => 'A' ]);
+        DB::table('spiele')->insert(['heim_id' => 5, 'gast_id' => 7, 'zeit' => '2022-11-25 20:00:00', 'gruppe' => 'B' ]);
+        DB::table('spiele')->insert(['heim_id' => 16, 'gast_id' => 14, 'zeit' => '2022-11-26 11:00:00', 'gruppe' => 'D' ]);
+        DB::table('spiele')->insert(['heim_id' => 12, 'gast_id' => 10, 'zeit' => '2022-11-26 14:00:00', 'gruppe' => 'C' ]);
+        DB::table('spiele')->insert(['heim_id' => 13, 'gast_id' => 15, 'zeit' => '2022-11-26 17:00:00', 'gruppe' => 'D' ]);
+        DB::table('spiele')->insert(['heim_id' => 9, 'gast_id' => 11, 'zeit' => '2022-11-26 20:00:00', 'gruppe' => 'C' ]);
+        DB::table('spiele')->insert(['heim_id' => 20, 'gast_id' => 18, 'zeit' => '2022-11-27 11:00:00', 'gruppe' => 'E' ]);
+        DB::table('spiele')->insert(['heim_id' => 21, 'gast_id' => 23, 'zeit' => '2022-11-27 14:00:00', 'gruppe' => 'F' ]);
+        DB::table('spiele')->insert(['heim_id' => 24, 'gast_id' => 22, 'zeit' => '2022-11-27 17:00:00', 'gruppe' => 'F' ]);
+        DB::table('spiele')->insert(['heim_id' => 17, 'gast_id' => 19, 'zeit' => '2022-11-27 20:00:00', 'gruppe' => 'E' ]);
+        DB::table('spiele')->insert(['heim_id' => 28, 'gast_id' => 26, 'zeit' => '2022-11-28 11:00:00', 'gruppe' => 'G' ]);
+        DB::table('spiele')->insert(['heim_id' => 32, 'gast_id' => 30, 'zeit' => '2022-11-28 14:00:00', 'gruppe' => 'H' ]);
+        DB::table('spiele')->insert(['heim_id' => 25, 'gast_id' => 27, 'zeit' => '2022-11-28 17:00:00', 'gruppe' => 'G' ]);
+        DB::table('spiele')->insert(['heim_id' => 29, 'gast_id' => 31, 'zeit' => '2022-11-28 20:00:00', 'gruppe' => 'H' ]);
 
         /*$teams = array ('Web Design','HTML','Freebies','Javaskript','CSS','Tutorials');
         foreach($teams as $t) {
