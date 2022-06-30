@@ -12,8 +12,8 @@
         </div>
     </section>
         -->
-    <img class="img-fluid" src="{{ url('images/image1.jpg') }}" alt="..." />
-    <!-- Projects-->
+        <img class="img-fluid" src="{{ url('images/image1.jpg') }}" alt="..." />
+        <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
         <div class="container px-4 px-lg-5">
             <!-- Project Two Row-->
